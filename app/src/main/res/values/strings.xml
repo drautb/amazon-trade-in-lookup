@@ -1,0 +1,36 @@
+<resources>
+  <string name="app_name">Amazon Trade-In Lookup</string>
+  <string name="isbn_text_hint">Enter an ISBN</string>
+  <string name="button_go">Go</string>
+  <string name="invalid_isbn_msg_template">\'%s\' is not a valid ISBN.</string>
+  <string name="trade_in_data_url_template" formatted="false">http://%s:%s/%s/%s</string>
+  <string name="data_title_key">Title</string>
+  <string name="data_isbn_key">ISBN</string>
+  <string name="data_trade_in_options_key">TradeInOptions</string>
+  <string name="action_settings">Settings</string>
+  <string name="title_activity_display_settings">Settings</string>
+  <string name="pref_host">pref_host</string>
+  <string name="pref_host_title">Host</string>
+  <string name="pref_host_summary">The host that should be asked for trade-in information.</string>
+  <string name="pref_host_default">amazon-trade-in-server.herokuapp.com</string>
+  <string name="pref_port">pref_port</string>
+  <string name="pref_port_title">Port</string>
+  <string name="pref_port_summary">The port that should be used to connect on.</string>
+  <string name="pref_port_default">80</string>
+  <string name="pref_path">pref_path</string>
+  <string name="pref_path_title">Path</string>
+  <string name="pref_path_summary">The path on the host that should be queried for trade-in information.</string>
+  <string name="pref_path_default">rest/value</string>
+  <string name="error_dialog_title">Error</string>
+  <string name="book_not_found_error">A book with that ISBN could not be found.</string>
+  <string name="not_eligible_title">Not Eligible</string>
+  <string name="not_eligible_msg_template" formatted="false">%s (ISBN: %s) is not currently eligible for trade-in.</string>
+  <string name="select_trade_in_title">Select Trade-In</string>
+  <string name="select_trade_in_msg_template" formatted="false">Select your trade-in for %s (ISBN: %s)</string>
+  <string name="total_txt">Profit:</string>
+  <string name="purchase_price_title">Purchase Price</string>
+  <string name="purchase_price_message">Enter the price of the book</string>
+  <string name="remove_from_list">Remove</string>
+  <string name="action_clear_lookups">Clear Tradeins</string>
+  <string name="searching_message">Searching Amazon.com...</string>
+</resources>
