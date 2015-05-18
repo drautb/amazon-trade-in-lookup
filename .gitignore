@@ -6,3 +6,9 @@
 /build
 /captures
 *.sublime-workspace
+*.iml
+.idea/
+gradlew
+gradlew.bat
+gradle/
+proguard-rules.pro
